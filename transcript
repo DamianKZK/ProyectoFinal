@@ -1,0 +1,577 @@
+# Loading project MIPS32
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of burrito.v was successful with warnings.
+# Compile of tb.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of RegisterBank.v was successful.
+# Compile of mux.v was successful.
+# Compile of control.v was successful.
+# Compile of ShiftLeft.v was successful.
+# Compile of signExtend.v was successful.
+# Compile of alu.v was successful.
+# Compile of AluControl.v was successful.
+# Compile of ram.v was successful with warnings.
+# 13 compiles, 0 failed with no errors.
+vsim work.tb
+# vsim work.tb 
+# Start time: 20:57:42 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+vsim work.tb
+# End time: 21:02:45 on Dec 03,2025, Elapsed time: 0:05:03
+# Errors: 0, Warnings: 3
+# vsim work.tb 
+# Start time: 21:02:45 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+run
+run
+run
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of burrito.v was successful with warnings.
+# Compile of tb.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of RegisterBank.v was successful.
+# Compile of mux.v was successful.
+# Compile of control.v was successful.
+# Compile of ShiftLeft.v was successful.
+# Compile of signExtend.v was successful.
+# Compile of alu.v was successful.
+# Compile of AluControl.v was successful.
+# Compile of ram.v was successful with warnings.
+# 13 compiles, 0 failed with no errors.
+vsim work.tb
+# End time: 21:05:05 on Dec 03,2025, Elapsed time: 0:02:20
+# Errors: 0, Warnings: 3
+# vsim work.tb 
+# Start time: 21:05:05 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+run
+run
+run
+vsim work.tb
+# End time: 21:09:39 on Dec 03,2025, Elapsed time: 0:04:34
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:09:39 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim work.tb
+# End time: 21:12:00 on Dec 03,2025, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:12:00 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+add wave -position 27  /tb/regBank/Bank
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim work.tb
+# End time: 21:15:17 on Dec 03,2025, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:15:17 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim work.tb
+# End time: 21:16:02 on Dec 03,2025, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:16:02 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+add wave -position 11  /tb/regBank/Bank
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+vsim work.tb
+# End time: 21:17:42 on Dec 03,2025, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:17:42 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+vsim work.tb
+# End time: 21:18:11 on Dec 03,2025, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 1
+# vsim work.tb 
+# Start time: 21:18:11 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+add wave -position 11  /tb/regBank/Bank
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of pc.v was successful.
+# Compile of add.v was successful.
+# Compile of burrito.v was successful with warnings.
+# Compile of tb.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of RegisterBank.v was successful.
+# Compile of mux.v was successful.
+# Compile of control.v was successful.
+# Compile of ShiftLeft.v was successful.
+# Compile of signExtend.v was successful.
+# Compile of alu.v was successful.
+# Compile of AluControl.v was successful.
+# Compile of ram.v was successful with warnings.
+# 13 compiles, 0 failed with no errors.
+vsim work.tb
+# End time: 21:23:21 on Dec 03,2025, Elapsed time: 0:05:10
+# Errors: 0, Warnings: 3
+# vsim work.tb 
+# Start time: 21:23:21 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim work.tb
+# End time: 21:28:50 on Dec 03,2025, Elapsed time: 0:05:29
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:28:50 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+vsim work.tb
+# End time: 21:29:06 on Dec 03,2025, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:29:06 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+add wave -position end  /tb/regBank/Bank
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+vsim work.tb
+# End time: 21:30:19 on Dec 03,2025, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:30:19 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+add wave -position end  /tb/regBank/Bank
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim work.tb
+# End time: 21:32:53 on Dec 03,2025, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:32:53 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+add wave -position 0  /tb/regBank/Bank
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim work.tb
+# End time: 21:34:12 on Dec 03,2025, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:34:12 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+add wave -position 0  /tb/regBank/Bank
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim work.tb
+# End time: 21:35:56 on Dec 03,2025, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:35:56 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim work.tb
+# End time: 21:36:12 on Dec 03,2025, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:36:12 on Dec 03,2025
+# Loading work.tb
+# Loading work.programCounter
+# Loading work.adder
+# Loading work.instructionMemory
+# Loading work.Mux5
+# Loading work.Control
+# Loading work.registerBank
+# Loading work.signExtend
+# Loading work.shiftLeft2
+# Loading work.Mux32
+# Loading work.AluControl
+# Loading work.ALUZeroFlag
+# Loading work.RAM
+add wave -position 0  /tb/regBank/Bank
+run
+# ** Warning: (vsim-7) Failed to open readmem file "RAM.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/anglonchas/Programming/MIPS32/ram.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /tb/memory
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

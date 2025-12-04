@@ -1,0 +1,92 @@
+/home/anglonchas/Programming/MIPS32/ShiftLeft.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/ShiftLeft.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shiftLeft2
+
+Top level modules:
+	shiftLeft2
+
+} {} {}} /home/anglonchas/Programming/MIPS32/signExtend.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/signExtend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module signExtend
+
+Top level modules:
+	signExtend
+
+} {} {}} /home/anglonchas/Programming/MIPS32/add.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/add.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} /home/anglonchas/Programming/MIPS32/pc.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/pc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module programCounter
+
+Top level modules:
+	programCounter
+
+} {} {}} /home/anglonchas/Programming/MIPS32/AluControl.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/AluControl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AluControl
+
+Top level modules:
+	AluControl
+
+} {} {}} /home/anglonchas/Programming/MIPS32/InstructionMemory.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/InstructionMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module instructionMemory
+
+Top level modules:
+	instructionMemory
+
+} {} {}} /home/anglonchas/Programming/MIPS32/tb.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} /home/anglonchas/Programming/MIPS32/burrito.v {2 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/burrito.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registerBank
+** Warning: /home/anglonchas/Programming/MIPS32/burrito.v(26): (vlog-2182) 'Bank' might be read before written in always_comb or always @* block.
+-- Compiling module ALU
+-- Compiling module burrito
+-- Compiling module burritoTB
+
+Top level modules:
+	burritoTB
+
+} {} {}} /home/anglonchas/Programming/MIPS32/RegisterBank.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/RegisterBank.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registerBank
+
+Top level modules:
+	registerBank
+
+} {} {}} /home/anglonchas/Programming/MIPS32/control.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Control
+
+Top level modules:
+	Control
+
+} {} {}} /home/anglonchas/Programming/MIPS32/mux.v {1 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux32
+-- Compiling module Mux5
+
+Top level modules:
+	Mux32
+	Mux5
+
+} {} {}} /home/anglonchas/Programming/MIPS32/ram.v {2 {vlog -work work -stats=none /home/anglonchas/Programming/MIPS32/ram.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RAM
+** Warning: /home/anglonchas/Programming/MIPS32/ram.v(18): (vlog-2182) 'memory' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	RAM
+
+} {} {}}
